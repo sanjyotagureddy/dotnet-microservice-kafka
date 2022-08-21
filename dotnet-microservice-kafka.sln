@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Banking.Core.T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Banking.Api", "src\Microservice.Banking.Api\Microservice.Banking.Api.csproj", "{693E0C90-3FEE-474B-B82F-A2F63317CC9D}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{8D38D8F6-DF8F-4173-A4BE-F79CD38B56DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{693E0C90-3FEE-474B-B82F-A2F63317CC9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{693E0C90-3FEE-474B-B82F-A2F63317CC9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{693E0C90-3FEE-474B-B82F-A2F63317CC9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D38D8F6-DF8F-4173-A4BE-F79CD38B56DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D38D8F6-DF8F-4173-A4BE-F79CD38B56DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D38D8F6-DF8F-4173-A4BE-F79CD38B56DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D38D8F6-DF8F-4173-A4BE-F79CD38B56DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
