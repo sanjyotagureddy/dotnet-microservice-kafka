@@ -10,4 +10,12 @@
     <ProjectReference Include="..\..\Shared\Microservice.Banking.Common\Microservice.Banking.Common.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="EventHandlers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Polly" Version="7.2.3" />
+  </ItemGroup>
+
 </Project>
