@@ -2,5 +2,5 @@
 
 public interface IEventProducer
 {
-  Task DispatchAsync(IIntegrationEvent @event, CancellationToken cancellationToken = default);
+  Task DispatchAsync(IIntegrationEvent @event, IDictionary<string, string>? customHeaders = null, CancellationToken cancellationToken = default);
 }

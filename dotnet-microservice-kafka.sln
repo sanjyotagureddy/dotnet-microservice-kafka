@@ -17,11 +17,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.Banking.Core", "src\Core\Microservice.Banking.Core\Microservice.Banking.Core.csproj", "{8F78342E-CF65-4A73-9A6C-09A75996DCA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Banking.Core.Test", "test\Microservice.Banking.Core.Test\Microservice.Banking.Core.Test.csproj", "{876F0D7D-52DC-4923-9933-2E131C20C56B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.Banking.Core.Test", "test\Microservice.Banking.Core.Test\Microservice.Banking.Core.Test.csproj", "{876F0D7D-52DC-4923-9933-2E131C20C56B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Banking.Api", "src\Microservice.Banking.Api\Microservice.Banking.Api.csproj", "{693E0C90-3FEE-474B-B82F-A2F63317CC9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.Banking.Api", "src\Microservice.Banking.Api\Microservice.Banking.Api.csproj", "{693E0C90-3FEE-474B-B82F-A2F63317CC9D}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{8D38D8F6-DF8F-4173-A4BE-F79CD38B56DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Banking.Infrastructure.Kafka", "src\Infrastructure\Microservice.Banking.Infrastructure.Kafka\Microservice.Banking.Infrastructure.Kafka.csproj", "{C9016FD7-A6A3-48E5-8036-E090FFE32831}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +51,10 @@ Global
 		{8D38D8F6-DF8F-4173-A4BE-F79CD38B56DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D38D8F6-DF8F-4173-A4BE-F79CD38B56DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D38D8F6-DF8F-4173-A4BE-F79CD38B56DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9016FD7-A6A3-48E5-8036-E090FFE32831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9016FD7-A6A3-48E5-8036-E090FFE32831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9016FD7-A6A3-48E5-8036-E090FFE32831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9016FD7-A6A3-48E5-8036-E090FFE32831}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,6 +67,7 @@ Global
 		{8F78342E-CF65-4A73-9A6C-09A75996DCA9} = {C4F6B6AA-79C8-4977-998E-18C6A318D202}
 		{876F0D7D-52DC-4923-9933-2E131C20C56B} = {2E1DAF23-B2D5-4C67-875F-3C72FDDE9F17}
 		{693E0C90-3FEE-474B-B82F-A2F63317CC9D} = {5C90E729-BD9D-46D3-8C95-1418BB92B1BE}
+		{C9016FD7-A6A3-48E5-8036-E090FFE32831} = {657EF941-B5B2-4BB9-AD60-D7BEB2553490}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {983BE557-F3A9-4022-88A6-8405BEBD36E3}
