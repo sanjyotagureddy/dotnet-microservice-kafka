@@ -1,8 +1,7 @@
-﻿namespace Microservice.Banking.Core.Services
+﻿namespace Microservice.Banking.Core.Services;
+
+public interface ICustomerEmailsService
 {
-  public interface ICustomerEmailsService
-  {
-    Task<bool> ExistsAsync(string email);
-    Task CreateAsync(string email, Guid customerId);
-  }
+  Task<bool> ExistsAsync(string email);
+  Task CreateAsync(string email, Guid customerId);
 }

@@ -1,10 +1,9 @@
-﻿namespace Microservice.Banking.Core.Services
+﻿namespace Microservice.Banking.Core.Services;
+
+public class FakeCurrencyConverter : ICurrencyConverter
 {
-  public class FakeCurrencyConverter : ICurrencyConverter
+  public Money Convert(Money amount, Currency currency)
   {
-    public Money Convert(Money amount, Currency currency)
-    {
-      return amount.Currency == currency ? amount : new Money(currency, amount.Value);
-    }
+    return amount.Currency == currency ? amount : new Money(currency, amount.Value);
   }
 }
